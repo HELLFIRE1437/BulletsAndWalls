@@ -22,7 +22,7 @@ function draw(){
   background("black");
   drawSprites();
   fill("yellow");
-  text("X : " + mouseX + " Y : " + mouseY , mouseX , mouseY );
+  //text("X : " + mouseX + " Y : " + mouseY , mouseX , mouseY );
   textFont("Algerian");
   textSize(30);
   text("WALL MATERIAL TESTING",325,80); 
