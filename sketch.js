@@ -9,14 +9,14 @@ function setup(){
   thickness = random(22,83);
   bullet_speed = random(223,321);
   bullet_weight = random(30,52);
-  console.log("t : " + thickness + " s : " + bullet_speed 
-  + " w : " + bullet_weight);
+  /*console.log("t : " + thickness + " s : " + bullet_speed 
+  + " w : " + bullet_weight);*/
   bullet = createSprite(150,250,50,7);
-  bullet.debug = true ;
+  //bullet.debug = true ;
   bullet.velocityX = bullet_speed ;
   bullet.shapeColor = "white";
   wall = createSprite(900,250,thickness,height/2);
-  wall.debug = true ;
+  //wall.debug = true ;
 }
 function draw(){
   background("black");
